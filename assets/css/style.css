@@ -595,6 +595,10 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.about {
+  color: #222222;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -694,10 +698,10 @@ section {
 .services .icon-box {
   text-align: center;
   padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  /* transition: all ease-in-out 0.3s; */
+  /* background: #fff; */
+  /* border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .services .icon-box .icon {
@@ -731,10 +735,6 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box h4 a:hover {
-  color: white;
-}
-
 .services .icon-box p {
   color: black;
   line-height: 24px;
@@ -744,8 +744,8 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
+  cursor: pointer;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
 }
 
 /*--------------------------------------------------------------
@@ -1061,8 +1061,9 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  /* padding: 80px 0; */
+  /* background: url("../img/testimonials-bg.jpg") no-repeat; */
+  background-color: #222222;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1087,10 +1088,56 @@ section {
   overflow: hidden;
 }
 
-.testimonials .testimonial-item {
+.testimonials .testimonial-item-2 {
   text-align: center;
   color: #fff;
+  height: 80vh;
+  background: url("../img/item-2.jpeg") no-repeat;
+  /* margin-top: 25%; */
+  width: 100%;
+  margin: auto;
 }
+
+.testimonials .testimonial-item-1 {
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+  background: url("../img/item-1.jpeg") no-repeat;
+  /* margin-top: 25%; */
+  width: 100%;
+  margin: auto;
+}
+
+.testimonials .testimonial-item-3 {
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+  background: url("../img/item-3.jpeg") no-repeat;
+  /* margin-top: 25%; */
+  width: 100%;
+  margin: auto;
+}
+
+.testimonials .testimonial-item-4 {
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+  background: url("../img/item-4.jpeg") no-repeat;
+  /* margin-top: 25%; */
+  width: 100%;
+  margin: auto;
+}
+
+.testimonials .testimonial-item-5 {
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+  background: url("../img/item-5.jpeg") no-repeat;
+  /* margin-top: 25%; */
+  width: 100%;
+  margin: auto;
+}
+
 
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
@@ -1101,6 +1148,7 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
+  padding-bottom: 150px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
