@@ -1070,6 +1070,10 @@ section {
   height: max-content;
 }
 
+.testimonials .container{
+  min-width: 90%;
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
